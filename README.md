@@ -21,22 +21,26 @@ Modern Next.js 16 template with TypeScript, Tailwind CSS v4, ESLint, Prettier, a
 ## 🛠️ Quick Start
 
 1. **Clone the repository**
+
    ```bash
    git clone <your-repo-url>
    cd trisolve
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Set up environment variables** (optional)
+
    ```bash
    cp .env.example .env.local
    ```
 
 4. **Start development server**
+
    ```bash
    npm run dev
    ```
@@ -46,16 +50,16 @@ Modern Next.js 16 template with TypeScript, Tailwind CSS v4, ESLint, Prettier, a
 
 ## 📜 Available Scripts
 
-| Script | Description |
-|--------|-------------|
-| `npm run dev` | Start development server on port 3000 |
-| `npm run build` | Build production bundle |
-| `npm run start` | Start production server |
-| `npm run lint` | Run ESLint to check code quality |
-| `npm run lint:fix` | Auto-fix ESLint issues |
-| `npm run format` | Format code with Prettier |
-| `npm run format:check` | Check code formatting |
-| `npm run type-check` | Run TypeScript type checking |
+| Script                 | Description                           |
+| ---------------------- | ------------------------------------- |
+| `npm run dev`          | Start development server on port 3000 |
+| `npm run build`        | Build production bundle               |
+| `npm run start`        | Start production server               |
+| `npm run lint`         | Run ESLint to check code quality      |
+| `npm run lint:fix`     | Auto-fix ESLint issues                |
+| `npm run format`       | Format code with Prettier             |
+| `npm run format:check` | Check code formatting                 |
+| `npm run type-check`   | Run TypeScript type checking          |
 
 ## 📁 Project Structure
 
@@ -81,10 +85,13 @@ trisolve/
 ## 🎨 Customization
 
 ### Fonts
+
 This template uses [Geist](https://vercel.com/font) font family. To change fonts, edit `src/app/layout.tsx`.
 
 ### Metadata
+
 Update site metadata in `src/app/layout.tsx`:
+
 ```typescript
 export const metadata: Metadata = {
   title: 'Your App Title',
@@ -93,6 +100,7 @@ export const metadata: Metadata = {
 ```
 
 ### Styling
+
 - Global styles: `src/app/globals.css`
 - Tailwind config: Uses Tailwind v4 CSS configuration
 
@@ -108,11 +116,13 @@ NEXT_PUBLIC_API_URL=https://api.example.com
 ## 🧪 Code Quality
 
 This template includes:
+
 - **ESLint**: Enforces code quality rules
 - **Prettier**: Ensures consistent code formatting
 - **TypeScript**: Provides type safety with strict mode enabled
 
 Run checks before committing:
+
 ```bash
 npm run lint
 npm run format:check
@@ -129,10 +139,13 @@ npm run start
 ## 🚀 Deployment
 
 ### Vercel (Recommended)
+
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
 
 ### Other Platforms
+
 This project can be deployed to any platform that supports Next.js:
+
 - Netlify
 - AWS Amplify
 - Docker
