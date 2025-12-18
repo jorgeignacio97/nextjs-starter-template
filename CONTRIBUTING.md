@@ -1,4 +1,4 @@
-# Contributing to Trisolve
+# Contributing to Next.js Starter Template
 
 Thank you for considering contributing to this project! Here are some guidelines to help you get started.
 

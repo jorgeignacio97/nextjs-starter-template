@@ -1,6 +1,6 @@
-# Trisolve - Next.js Template
+# Next.js Starter Template
 
-Modern Next.js 16 template with TypeScript, Tailwind CSS v4, ESLint, Prettier, and React Compiler pre-configured. Ready to start coding immediately after cloning.
+Modern Next.js 16 starter template with TypeScript, Tailwind CSS v4, ESLint, Prettier, and React Compiler pre-configured. Ready to start coding immediately after cloning.
 
 ## 🚀 Features
 
@@ -64,7 +64,7 @@ Modern Next.js 16 template with TypeScript, Tailwind CSS v4, ESLint, Prettier, a
 ## 📁 Project Structure
 
 ```
-trisolve/
+nextjs-starter-template/
 ├── public/             # Static files
 ├── src/
 │   └── app/           # Next.js App Router pages
