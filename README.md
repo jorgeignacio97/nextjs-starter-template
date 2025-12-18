@@ -24,7 +24,7 @@ Modern Next.js 16 starter template with TypeScript, Tailwind CSS v4, ESLint, Pre
 
    ```bash
    git clone <your-repo-url>
-   cd trisolve
+   cd nextjs-starter-template
    ```
 
 2. **Install dependencies**
